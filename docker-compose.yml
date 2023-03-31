@@ -9,7 +9,7 @@ services:
 
   movie:
     image: firdos2345/movie:v1
-  ports:
+    ports:
       - "82:80"
     deploy:
       replicas: 3
